@@ -1,5 +1,5 @@
 {
-  "originHash" : "049778e16c67d25833f9f709537edf42344734ded636e93cf9b53978f91838bb",
+  "originHash" : "a25ce275c01cc164307ef3a50268757e7bdba4d9bfcc262d3dc7293df5e754d5",
   "pins" : [
     {
       "identity" : "codeeditorview",
@@ -11,21 +11,21 @@
       }
     },
     {
+      "identity" : "documentkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/danielsaidi/DocumentKit.git",
+      "state" : {
+        "revision" : "84f185e2383151887538c33b842a7c14ad8a1a9d",
+        "version" : "0.4.0"
+      }
+    },
+    {
       "identity" : "rearrange",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/ChimeHQ/Rearrange.git",
       "state" : {
         "revision" : "5ff7f3363f7a08f77e0d761e38e6add31c2136e1",
         "version" : "1.8.1"
-      }
-    },
-    {
-      "identity" : "richtextkit",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/danielsaidi/RichTextKit.git",
-      "state" : {
-        "revision" : "f0ecceb71ff3cb12a3143eed13b8b62fea7c34e5",
-        "version" : "1.0.0"
       }
     }
   ],
