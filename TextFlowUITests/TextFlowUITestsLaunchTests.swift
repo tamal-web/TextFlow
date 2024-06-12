@@ -1,13 +1,13 @@
 //
-//  Editor_MasterUITestsLaunchTests.swift
-//  Editor MasterUITests
+//  TextFlowUITestsLaunchTests.swift
+//  TextFlowUITests
 //
 //  Created by Tamal on 05/06/24.
 //
 
 import XCTest
 
-final class Editor_MasterUITestsLaunchTests: XCTestCase {
+final class TextFlowUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

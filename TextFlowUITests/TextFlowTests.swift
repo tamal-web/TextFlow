@@ -1,13 +1,13 @@
 //
-//  Editor_MasterUITests.swift
-//  Editor MasterUITests
+//  TextFlowUITests.swift
+//  TextFlowUITests
 //
 //  Created by Tamal on 05/06/24.
 //
 
 import XCTest
 
-final class Editor_MasterUITests: XCTestCase {
+final class TextFlowUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

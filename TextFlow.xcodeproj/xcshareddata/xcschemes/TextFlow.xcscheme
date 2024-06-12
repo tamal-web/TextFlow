@@ -16,8 +16,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "93CBBD292C0FD49500999765"
-               BuildableName = "Editor Master.app"
-               BlueprintName = "Editor Master"
+               BuildableName = "TextFlow.app"
+               BlueprintName = "TextFlow"
                ReferencedContainer = "container:TextFlow.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -36,8 +36,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "93CBBD392C0FD49700999765"
-               BuildableName = "Editor MasterTextFlowests.xctest"
-               BlueprintName = "Editor MasterTextFlowests"
+               BuildableName = "TextFlowTests.xctest"
+               BlueprintName = "TextFlowTests"
                ReferencedContainer = "container:TextFlow.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -47,8 +47,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "93CBBD432C0FD49700999765"
-               BuildableName = "Editor MasterUITextFlowests.xctest"
-               BlueprintName = "Editor MasterUITextFlowests"
+               BuildableName = "TextFlowUITests.xctest"
+               BlueprintName = "TextFlowUITests"
                ReferencedContainer = "container:TextFlow.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -69,11 +69,14 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "93CBBD292C0FD49500999765"
-            BuildableName = "Editor Master.app"
-            BlueprintName = "Editor Master"
+            BuildableName = "TextFlow.app"
+            BlueprintName = "TextFlow"
             ReferencedContainer = "container:TextFlow.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <StoreKitConfigurationFileReference
+         identifier = "../../TextFlow/product.storekit">
+      </StoreKitConfigurationFileReference>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -86,8 +89,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "93CBBD292C0FD49500999765"
-            BuildableName = "Editor Master.app"
-            BlueprintName = "Editor Master"
+            BuildableName = "TextFlow.app"
+            BlueprintName = "TextFlow"
             ReferencedContainer = "container:TextFlow.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
