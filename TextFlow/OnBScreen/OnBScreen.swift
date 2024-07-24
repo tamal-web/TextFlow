@@ -28,7 +28,7 @@ struct OnBScreen: View, DocumentGroupModalPlugin  {
                                 Image("ss\(i)")
                                     .resizable()
                                     .aspectRatio( contentMode: .fit).padding(.leading, 0).padding(.trailing, 0).padding(.bottom)
-    //                            Text(index==0 ? "A rich text Editor that solves your problem, make text- **Bold**, *Italic*, \(Text("Underline").underline())" : $index.wrappedValue == 1 ? "Oh, And we have a plain Text Editor tooo!\nWork with plain texts files easily" : "So Did I tell you about the Dark Theme?\nAvailable only for premium members  ").padding(.top).font(.system(size: 18)).multilineTextAlignment(.center).padding(.leading, 16).padding(.trailing, 16)
+
                             }
                           
                             
