@@ -19,15 +19,12 @@ struct TextFlow: App {
         var b = UserDefaults.standard.show && !UserDefaults.standard.firstVisit
         return b
     }
-    @AppStorage("subscribed") private var subscribed :Bool = false
+
     var body: some Scene {
 
-
         DocumentGroup(newDocument: RtfFile()) { file in
-//            UserDefaults.standard.show && !UserDefaults.standard.firstVisit
            
                     RTFEdtior(document:file.$document, fileURL: file.fileURL).preferredColorScheme(.light)
-//                .preferredColorScheme(.dark).environment(\.colorScheme, .dark)
         }
 
         .additionalNavigationBarButtonItems(leading: [.darkTheme, .proBadge])
@@ -40,16 +37,11 @@ struct TextFlow: App {
                     SubscriptionTextFlowUI()
                 }
                 
-//                .splashScreen(if: UserDefaults.standard.sub){
-//                    SubscriptionOrignal()
-//                }
-              
-        
+
 
         
         DocumentGroup(newDocument: TxtFile()){
             file in TxtEditViewer(document: file.$document, fileURL: file.fileURL).preferredColorScheme(.light)
-//                .preferredColorScheme(.dark).environment(\.colorScheme, .dark)
         }
                 }
     }
@@ -69,9 +61,7 @@ private extension DocumentGroupToolbarItem {
        
             try? SubscriptionTextFlowUI().preferredColorScheme(.light)
                    .presentAsDocumentGroupModal(.fullScreenCoverPlugin)
-     
-    
-    }
+      }
 
 }
 
@@ -93,12 +83,8 @@ struct ProBadgeView: View {
         Group {
             if storeVM.subscriptions.isEmpty {
                 SubscriptionTextFlowUI()
-//                    .preferredColorScheme(.light)
-//                    .presentAsDocumentGroupModal(.fullScreenCoverPlugin)
             } else {
                 SubscribedScreen()
-//                    .preferredColorScheme(.light)
-//                    .presentAsDocumentGroupModal(.fullScreenCoverPlugin)
             }
         }
     }
