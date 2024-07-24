@@ -97,9 +97,9 @@ struct SubscriptionTextFlowUI: View, DocumentGroupModalPlugin {
                         
                     
                 }  .onAppear{
-                    print(UserDefaults.standard.firstVisit)
+//                    print(UserDefaults.standard.firstVisit)
                     UserDefaults.standard.firstVisit = false
-                    print(UserDefaults.standard.firstVisit)
+//                    print(UserDefaults.standard.firstVisit)
                     }
             }.navigationBarBackButtonHidden()
 //                .preferredColorScheme(.light)
