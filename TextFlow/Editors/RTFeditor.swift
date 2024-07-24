@@ -162,7 +162,7 @@ struct toptoolbar:View {
     var body: some View {
         if ShowToolbar{
             HStack{
-
+ 
                 VStack {
                     HStack {
                         button(for: .undoLatestChange)
